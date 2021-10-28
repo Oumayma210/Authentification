@@ -1,0 +1,31 @@
+{
+    "name": "authentification",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[",
+    "scripts": {
+        "back": "nodemon server",
+        "front": "cd client && npm start",
+        "start": "concurrently \"npm run front\" \"npm run back\""
+    },
+    "keywords": [
+        "monogodb",
+        "mongoose",
+        "nodejs",
+        "react"
+    ],
+    "author": "oumayma",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "express": "^4.17.1",
+        "express-validator": "^6.13.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.12"
+    },
+    "devDependencies": {
+        "concurrently": "^6.3.0",
+        "dotenv": "^10.0.0",
+        "nodemon": "^2.0.14"
+    }
+}
